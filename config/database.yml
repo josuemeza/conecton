@@ -13,7 +13,7 @@ development: &development
 staging:
   <<: *development
 
-# Set data
+# Set data for production
 production:
   <<: *default
   database: heroku_5782bcf17b904c3
