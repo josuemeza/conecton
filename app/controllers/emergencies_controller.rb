@@ -1,4 +1,4 @@
-class EmergenciesController < ApplicationController
+class EmergenciesController < ApiController
   before_action :set_emergency, only: [:show, :edit, :update, :destroy]
 
   # GET /emergencies

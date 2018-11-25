@@ -1,4 +1,4 @@
-class ProductRequestsController < ApplicationController
+class ProductRequestsController < ApiController
   before_action :set_product_request, only: [:show, :edit, :update, :destroy]
 
   # GET /product_requests

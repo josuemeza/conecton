@@ -3,19 +3,19 @@ default: &default
   port: 3306
   encoding: utf8mb4
 
-# development: &development
-#   <<: *default
-#   database: teleton_db
-#   username: teleton
-#   password: teleton
-#   host: 127.0.0.1
-
 development: &development
   <<: *default
-  database: heroku_5782bcf17b904c3
-  username: b532cbe6c61081
-  password: c4d52b69
-  host: us-cdbr-iron-east-01.cleardb.net
+  database: teleton_db
+  username: teleton
+  password: teleton
+  host: 127.0.0.1
+
+# development: &development
+#   <<: *default
+#   database: heroku_5782bcf17b904c3
+#   username: b532cbe6c61081
+#   password: c4d52b69
+#   host: us-cdbr-iron-east-01.cleardb.net
 
 staging:
   <<: *development

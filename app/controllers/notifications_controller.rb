@@ -1,4 +1,4 @@
-class NotificationsController < ApplicationController
+class NotificationsController < ApiController
   before_action :set_notification, only: [:show, :edit, :update, :destroy]
 
   # GET /notifications

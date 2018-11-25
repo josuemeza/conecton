@@ -1,4 +1,4 @@
-class ConditionsController < ApplicationController
+class ConditionsController < ApiController
   before_action :set_condition, only: [:show, :edit, :update, :destroy]
 
   # GET /conditions

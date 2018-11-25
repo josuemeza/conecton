@@ -1,4 +1,4 @@
-class PostTypesController < ApplicationController
+class PostTypesController < ApiController
   before_action :set_post_type, only: [:show, :edit, :update, :destroy]
 
   # GET /post_types
