@@ -12,7 +12,7 @@ default: &default
 
 development: &development
   <<: *default
-  database: teleton_db
+  database: heroku_5782bcf17b904c3
   username: b532cbe6c61081
   password: c4d52b69
   host: us-cdbr-iron-east-01.cleardb.net
