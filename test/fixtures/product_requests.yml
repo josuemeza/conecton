@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  profile: one
+  product: one
+  pending: false
+
+two:
+  profile: two
+  product: two
+  pending: false

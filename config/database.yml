@@ -1,0 +1,17 @@
+default: &default
+  adapter: mysql2
+  port: 3306
+  encoding: utf8mb4
+
+development: &development
+  <<: *default
+  database: teleton_db
+  username: teleton
+  password: teleton
+  host: 127.0.0.1
+
+staging:
+  <<: *development
+
+production:
+  <<: *development

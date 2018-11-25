@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Profile:</strong>
+  <%= @product_request.profile %>
+</p>
+
+<p>
+  <strong>Product:</strong>
+  <%= @product_request.product %>
+</p>
+
+<p>
+  <strong>Pending:</strong>
+  <%= @product_request.pending %>
+</p>
+
+<%= link_to 'Edit', edit_product_request_path(@product_request) %> |
+<%= link_to 'Back', product_requests_path %>
